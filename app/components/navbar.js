@@ -98,7 +98,7 @@ const Navbar = () => {
               className="text-blue-500 cursor-pointer"
               size={20}
             />
-            <Link href="/users/cart/">
+            <Link href="/products/cart/">
               <FaShoppingCart
                 className="text-blue-500 cursor-pointer"
                 size={28}

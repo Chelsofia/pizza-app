@@ -1,7 +1,7 @@
 "use client";
 
 import { useContext } from "react";
-import { cartContext } from "../../../cartContext";
+import { cartContext } from "../../cartContext";
 import { useState } from "react";
 import Modal from "../cart/cartModal";
 

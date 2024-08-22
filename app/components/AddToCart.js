@@ -2,7 +2,7 @@
 import { FaShoppingCart } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { useContext } from "react";
-import { cartContext } from "../../cartContext";
+import { cartContext } from "../cartContext";
 
 export default function AddToCartBtn({ pizza }) {
   const { data, setData } = useContext(cartContext);
