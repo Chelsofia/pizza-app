@@ -39,7 +39,7 @@ export default function Home() {
 
       <section className="flex flex-col-reverse md:flex-row md:h-screen mx-auto p-4 gap-4">
         <div className="md:w-1/3 justify-center text-center m-auto">
-          <img src="./images/pieces.png" className="w-60" />
+          <img src="./images/Pieces.png" className="w-60" />
         </div>
         <div className="flex md:flex-col md:w-2/3 justify-center text-center md:text-left relative p-4">
           <div className="w-full md:w-[50%]">
