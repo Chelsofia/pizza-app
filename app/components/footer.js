@@ -16,7 +16,7 @@ export default function Footer() {
           <h1 className="text-black mt-4 font-bold">INFORMATION</h1>
           <ul className="space-y-8">
             {" "}
-            {/* Added spacing between items */}
+          
             <li>Home</li>
             <li>Blog</li>
             <li>About us</li>
@@ -28,7 +28,7 @@ export default function Footer() {
           <h1 className="text-black mt-4 font-bold">TOP ITEMS</h1>
           <ul className="space-y-8">
             {" "}
-            {/* Added spacing between items */}
+           
             <li className="">Pepperoni</li>
             <li>Swiss Mushroom</li>
             <li>Barbeque Chicken</li>
@@ -40,7 +40,7 @@ export default function Footer() {
           <h1 className="text-black mt-4 font-bold">OTHERS</h1>
           <ul className="space-y-8">
             {" "}
-            {/* Added spacing between items */}
+          
             <li>Checkout</li>
             <li>Cart</li>
             <li>Product</li>
