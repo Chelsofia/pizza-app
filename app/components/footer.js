@@ -11,7 +11,7 @@ export default function Footer() {
 
   return (
     <div className="bg-[#FFFAED] h-80 w-auto">
-      <section className="grid grid-cols-1 text-[#888888] cursor-pointer md:grid-cols-2 lg:grid-cols-4">
+      <section className="grid grid-cols-1 text-[#888888] cursor-pointer md:grid-cols-2 lg:grid-cols-4 ml-4">
         <div>
           <h1 className="text-black mt-4 font-bold">INFORMATION</h1>
           <ul className="space-y-8">
