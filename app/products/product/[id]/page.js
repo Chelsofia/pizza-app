@@ -52,7 +52,7 @@ export default async function Details({ params }) {
           <div className="mb-6 flex gap-4 items-center">
             <div className="relative cursor-pointer h-12 w-10 md:w-12">
               <img
-                src="/images/pizza-icon.png"
+                src="/images/Pizza-icon.png"
                 className="h-full w-full"
                 alt="Small Pizza"
               />
@@ -63,7 +63,7 @@ export default async function Details({ params }) {
 
             <div className="relative cursor-pointer h-16 w-14 md:w-16">
               <img
-                src="/images/pizza-icon.png"
+                src="/images/Pizza-icon.png"
                 className="h-full w-full"
                 alt="Medium Pizza"
               />
@@ -74,7 +74,7 @@ export default async function Details({ params }) {
 
             <div className="relative cursor-pointer h-20 w-20 md:w-24">
               <img
-                src="/images/pizza-icon.png"
+                src="/images/Pizza-icon.png"
                 className="h-full w-full"
                 alt="Large Pizza"
               />
