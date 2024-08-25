@@ -3,13 +3,13 @@ import OrderButton from "./orderbutton";
 import { FaStar } from "react-icons/fa";
 import Link from "next/link";
 
-// Fetch pizza data from the API
+
 async function getPizza() {
   const res = await fetch(
     "https://pizza-ordering-anno.onrender.com/api/products"
   );
 
-  // Check for errors and parse the JSON data
+ 
   if (!res.ok) {
     throw new Error("Failed to fetch pizza data");
   }
@@ -46,7 +46,7 @@ export default async function PizzaList() {
                 <FaStar className="text-yellow-500" />
                 <FaStar className="text-yellow-500" />
               </div>
-              <OrderButton />
+            
             </div>
           </Link>
         ))}
