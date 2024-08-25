@@ -77,7 +77,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/pages" className={linkClassName("/pages")}>
+              <Link href="/" className={linkClassName("/pages")}>
                 PAGES
               </Link>
             </li>
@@ -128,7 +128,7 @@ const Navbar = () => {
               Products
             </Link>
             <Link
-              href="/pages"
+              href="/"
               className="block rounded-md px-3 py-2 text-base font-medium"
               onClick={handleMobileLinkClick}
             >
